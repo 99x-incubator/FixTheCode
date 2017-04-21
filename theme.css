@@ -11,10 +11,10 @@ span.cm-operator	{ color: #82828d; }
 span.cm-meta		{ color: #82828d; }
 span.cm-tag			{ color: #82828d; }
 
-span.cm-link		{ color: #96bf31; }
-span.cm-number		{ color: #96bf31; }
-span.cm-string		{ color: #96bf31; }
-span.cm-string-2    { color: #96bf31; }
+span.cm-link		{ color: red; }
+span.cm-number		{ color: red; }
+span.cm-string		{ color: red; }
+span.cm-string-2    { color: red; }
 span.cm-variable	{ color: #d8c569; }
 span.cm-variable-2	{ color: #5cb4de; }
 span.cm-variable-3	{ color: #ef7a57; }

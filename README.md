@@ -1,7 +1,7 @@
 FixTheCOde Theme for Brackets 
 ============================
 
-Minimal theme for Brackets. A Brackets original.
+Minimal theme for Brackets.
 
 ## HTML
 ![HTML Screenshot](https://github.com/raashidA/FixTheCode/blob/master/screenshots/html.jpg)
@@ -12,3 +12,4 @@ Minimal theme for Brackets. A Brackets original.
 ## JS
 ![JS Screenshot](https://github.com/raashidA/FixTheCode/blob/master/screenshots/js.jpg)
 
+@99xt

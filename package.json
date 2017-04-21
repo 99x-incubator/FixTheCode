@@ -1,13 +1,13 @@
 {
-    "name": "AngJs",
-    "title": "AngJs",
+    "name": "fixthecode",
+    "title": "Fix The Code",
     "description": "This is a simple theme bracket",
     "homepage": "https://github.com/raashidA/AngJs.git",
     "version": "1.0.0",
     "author": "Raashid A. <raashida@99x.lk> (https://github.com/raashidA)",
     "license": "MIT",
     "theme": {
-        "file": "AngJs.css",
+        "file": "theme.css",
         "dark": true,
         "addModeClass": true
     },

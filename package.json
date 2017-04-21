@@ -7,7 +7,7 @@
     "author": "Raashid A. <raashida@99x.lk> (https://github.com/raashidA)",
     "license": "MIT",
     "theme": {
-        "file": "AngJS.less",
+        "file": "AngJs.css",
         "dark": true,
         "addModeClass": true
     },

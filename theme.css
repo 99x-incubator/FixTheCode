@@ -39,7 +39,7 @@ span.cm-error		{ color: red; }
 }
 
 .CodeMirror-cursor {
-	border-left: 1px solid #fff !important;
+	border-left: 2px solid #fff !important;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
@@ -60,7 +60,6 @@ span.cm-error		{ color: red; }
     background-color: #004581;
 }
 
-
 /* Active Line */
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
@@ -76,7 +75,6 @@ span.cm-error		{ color: red; }
 	background-color: transparent !important;
 }
 
-
 /* Matching */
 
 .CodeMirror-matchingbracket {
@@ -91,8 +89,7 @@ span.cm-error		{ color: red; }
 
 /* Non-editor styling */
 
-#image-holder,
-#not-editor {
+#image-holder, #not-editor {
     background-color: #141617;
 }
 

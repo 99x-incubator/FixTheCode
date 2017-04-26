@@ -23,7 +23,7 @@ span.cm-attribute	{ color: #708394; }
 span.cm-keyword		{ color: #555555; }
 span.cm-property	{ color: #708394; } /* property after string */
 
-span.cm-comment		{ color: #3A6A43; }
+span.cm-comment		{ color: #444; }
 span.cm-error		{ color: red; }
 
 
@@ -35,7 +35,7 @@ span.cm-error		{ color: red; }
 
 .CodeMirror-scroll {
     background: #141617;
-	color: #b1b1b1;
+	color: #b1b1b1; 
 }
 
 .CodeMirror-cursor {

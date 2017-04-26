@@ -3,8 +3,8 @@
     "title": "Fix The Code",
     "description": "This is a simple theme bracket",
     "homepage": "https://github.com/raashidA/FixTheCode.git",
-    "version": "1.0.0",
-    "author": "Raashid A. <raashida@99x.lk> (https://github.com/raashidA)",
+    "version": "1.0.1",
+    "author": "Raashid A. <raashid@wezile.com> (https://github.com/raashidA)",
     "license": "MIT",
     "theme": {
         "file": "theme.css",

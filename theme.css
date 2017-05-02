@@ -11,13 +11,13 @@ span.cm-operator	{ color: #64B1CE; }
 span.cm-meta		{ color: #64B1CE; }
 span.cm-tag			{ color: #64B1CE; }
 
-span.cm-link		{ color: #28735E; }
-span.cm-number		{ color: #28735E; }
+span.cm-link		{ color: #ff8a69; }
+span.cm-number		{ color: #fca32b; }
 span.cm-string		{ color: #28735E; }
-span.cm-string-2    { color: #28735E; }
+span.cm-string-2    { color: #308e74; }
 span.cm-variable	{ color: #d8c569; }
 span.cm-variable-2	{ color: #5cb4de; }
-span.cm-variable-3	{ color: #ef7a57; }
+span.cm-variable-3	{ color: #ef7a57; } 
 
 span.cm-attribute	{ color: #708394; }
 span.cm-keyword		{ color: #555555; }
@@ -30,12 +30,12 @@ span.cm-error		{ color: red; }
 /* MISC ---------------------------------------------------------------------- */
 
 .CodeMirror {
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .CodeMirror-scroll {
     background: #141617;
-	color: #b1b1b1; 
+	color: #879887; 
 }
 
 .CodeMirror-cursor {

@@ -1,9 +1,9 @@
 {
     "name": "fixthecode",
-    "title": "Fix The Code",
-    "description": "This is a simple theme bracket",
+    "title": "FixTheCode",
+    "description": "This is a simple theme for brackets, We have used pastal colous to create this dark theme, who else have problem in seeing shining colours, this theme will help them out. ",
     "homepage": "https://github.com/raashidA/FixTheCode.git",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "Raashid A. <raashid@wezile.com> (https://github.com/raashidA)",
     "license": "MIT",
     "theme": {

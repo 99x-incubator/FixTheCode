@@ -12,7 +12,7 @@ span.cm-meta		{ color: #64B1CE; }
 span.cm-tag			{ color: #64B1CE; }
 
 span.cm-link		{ color: #ff8a69; }
-span.cm-number		{ color: #fca32b; }
+span.cm-number		{ color: #28735E; }
 span.cm-string		{ color: #28735E; }
 span.cm-string-2    { color: #308e74; }
 span.cm-variable	{ color: #d8c569; }
@@ -35,7 +35,7 @@ span.cm-error		{ color: red; }
 
 .CodeMirror-scroll {
     background: #141617;
-	color: #879887; 
+	color: #ddd; 
 }
 
 .CodeMirror-cursor {

@@ -23,7 +23,7 @@ span.cm-attribute	{ color: #708394; }
 span.cm-keyword		{ color: #555555; }
 span.cm-property	{ color: #708394; } /* property after string */
 
-span.cm-comment		{ color: #444; }
+span.cm-comment		{ color: #555555; }
 span.cm-error		{ color: red; }
 
 

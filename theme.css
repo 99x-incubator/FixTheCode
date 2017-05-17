@@ -24,18 +24,18 @@ span.cm-keyword		{ color: #555555; }
 span.cm-property	{ color: #708394; } /* property after string */
 
 span.cm-comment		{ color: #555555; }
-span.cm-error		{ color: red; }
+span.cm-error		{ color: #fc3d7f;}
 
 
 /* MISC ---------------------------------------------------------------------- */
 
 .CodeMirror {
-    line-height: 1.3;
+	line-height: 18px;
 }
 
 .CodeMirror-scroll {
-    background: #141617;
-	color: #ddd; 
+    background: #292C33;
+	color: #708394;
 }
 
 .CodeMirror-cursor {
@@ -48,12 +48,11 @@ span.cm-error		{ color: red; }
 }
 
 .CodeMirror-gutters {
-	background: #141617;
-	border-right: 1px solid #141617;
+	background: #292C33;
 }
 
 .CodeMirror-linenumber {
-	color: #333;
+	color: #555555;
 }
 
 .CodeMirror-selected {

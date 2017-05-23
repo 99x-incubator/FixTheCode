@@ -34,7 +34,7 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-scroll {
-    background: #292C33;
+    background: #1e1e1e;
 	color: #708394;
 }
 
@@ -48,7 +48,7 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-gutters {
-	background: #292C33;
+	background: #1e1e1e;
 }
 
 .CodeMirror-linenumber {
@@ -77,8 +77,11 @@ span.cm-error		{ color: #fc3d7f;}
 /* Matching */
  
 .CodeMirror-matchingbracket {
-    background: #28735E !important;
-    color: #fff !important;
+    background: #308e74 !important;
+    color: #000 !important;
+    font-weight: bold;
+    border: 1px solid #28735E;
+    border-radius: 2px;
 }
 
 .CodeMirror-matchingtag {

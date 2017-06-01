@@ -1,7 +1,7 @@
 /* SWATCHES ---------------------------------------------------------------------- */
 
-span.cm-builtin     { color: #f0f0f0; }
-span.cm-def			{ color: #f0f0f0; }
+span.cm-builtin     { color: #f0f0f0;}
+span.cm-def			{ color: #f0f0f0;}
 span.cm-header      { color: #f0f0f0; }
 span.cm-qualifier	{ color: #5cb4de; }
 
@@ -56,7 +56,7 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-selected {
-    background-color: rgba(555, 555, 555, 0.09);
+    background-color: rgba(333, 333, 333, 0.1);
 }
 
 /* Active Line */

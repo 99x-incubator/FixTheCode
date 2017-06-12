@@ -1,5 +1,3 @@
-FixTheCOde Theme for Brackets 
-============================
 
 # Fix The Code Theme [Brackets]
 [![Downloads](https://badges.ml/fixthecode/total.svg)](https://brackets-extension-badges.github.io#fixthecode)

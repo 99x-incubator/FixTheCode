@@ -271,7 +271,7 @@ select>option {
 .btn.btn-mini.remove {
 	background-color: #f44336 !important;
 	color: #fff !important;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .btn.btn-mini.remove:hover {

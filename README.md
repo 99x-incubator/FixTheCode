@@ -7,7 +7,7 @@
 
 Minimal theme for Brackets.
 
-The theme works best if the following extensions are installed
+The theme works best if you installed
 <a href="https://github.com/notasz/brackets-uitheming">Brackets UI Theming Enable</a> (to style UI elements, like the sidebar, toolbar etc.)
 
 

@@ -39,7 +39,8 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-cursor {
-	border-left: 2px solid #fc3d7f !important;
+	border-left: 3px solid #d8c569 !important;
+    border-radius: 50px;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
@@ -60,7 +61,7 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-focused .CodeMirror-selected {
-	background: #4f4f4f;
+	background: #000;
 }
 
 /* Active Line */
@@ -89,7 +90,7 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-matchingtag {
-    background: #333 !important;
+    background: #000 !important;
 }
 
 /* Non-editor styling */
@@ -125,10 +126,6 @@ span.cm-error		{ color: #fc3d7f;}
 	background: black;
 	outline: 2px solid rgba(255, 255, 255, 0.25);
 }
-
-
-
-
 
 
 
@@ -238,7 +235,7 @@ select>option {
 .btn-dropdown:not(.btn-status-bar):after {
 	right: 0.5rem;
 	top: 1rem;
-	border-top: 5px solid #ccc;
+	border-top: 5px solid #2196f3;
 }
 
 .btn:not(.btn-status-bar):not(.btn-dropdown) {

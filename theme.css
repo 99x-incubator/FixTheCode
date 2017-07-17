@@ -39,7 +39,7 @@ span.cm-error		{ color: #fc3d7f;}
 }
 
 .CodeMirror-cursor {
-	border-left: 3px solid #d8c569 !important;
+	border-left: 2px solid #d8c569 !important;
     border-radius: 50px;
 }
 

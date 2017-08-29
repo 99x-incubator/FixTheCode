@@ -1,130 +1,130 @@
 /* SWATCHES ---------------------------------------------------------------------- */
 
 span.cm-builtin     { color: #f0f0f0;}
-span.cm-def			{ color: #f0f0f0;}
+span.cm-def     { color: #f0f0f0;}
 span.cm-header      { color: #f0f0f0; }
-span.cm-qualifier	{ color: #5cb4de; }
+span.cm-qualifier { color: #5cb4de; }
 
-span.cm-atom		{ color: #64B1CE; }
-span.cm-bracket		{ color: #64B1CE; }
-span.cm-operator	{ color: #64B1CE; }
-span.cm-meta		{ color: #64B1CE; }
-span.cm-tag			{ color: #64B1CE; }
+span.cm-atom    { color: #64B1CE; }
+span.cm-bracket   { color: #64B1CE; }
+span.cm-operator  { color: #64B1CE; }
+span.cm-meta    { color: #64B1CE; }
+span.cm-tag     { color: #64B1CE; }
 
-span.cm-link		{ color: #ff8a69; }
-span.cm-number		{ color: #28735E; }
-span.cm-string		{ color: #28735E; }
+span.cm-link    { color: #ff8a69; }
+span.cm-number    { color: #28735E; }
+span.cm-string    { color: #28735E; }
 span.cm-string-2    { color: #308e74; }
-span.cm-variable	{ color: #d8c569; }
-span.cm-variable-2	{ color: #5cb4de; }
-span.cm-variable-3	{ color: #ef7a57; } 
+span.cm-variable  { color: #d8c569; }
+span.cm-variable-2  { color: #5cb4de; }
+span.cm-variable-3  { color: #ef7a57; } 
 
-span.cm-attribute	{ color: #708394; }
-span.cm-keyword		{ color: #555555; }
-span.cm-property	{ color: #708394; } /* property after string */
+span.cm-attribute { color: #708394; }
+span.cm-keyword   { color: #555555; }
+span.cm-property  { color: #708394; } /* property after string */
 
-span.cm-comment		{ color: #555555; }
-span.cm-error		{ color: #fc3d7f;}
+span.cm-comment   { color: #555555; }
+span.cm-error   { color: #fc3d7f;}
 
 
 /* MISC ---------------------------------------------------------------------- */
 
 .CodeMirror {
-	line-height: 18px;
+  line-height: 18px;
 }
 
 .CodeMirror-scroll {
-    background: #1e1e1e;
-	color: #708394;
+  background: #1e1e1e;
+  color: #708394;
 }
 
 .CodeMirror-cursor {
-	border-left: 2px solid #d8c569 !important;
-    border-radius: 50px;
+  border-left: 2px solid #d8c569 !important;
+  border-radius: 50px;
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
-    border-bottom: 1px solid #fff!important;
-    border-left: none !important;
+  border-bottom: 1px solid #fff!important;
+  border-left: none !important;
 }
 
 .CodeMirror-gutters {
-	background: #1a1a1a;
+  background: #1a1a1a;
 }
 
 .CodeMirror-linenumber {
-	color: #555555;
+  color: #555555;
 }
 
 .CodeMirror .CodeMirror-selected {
-	background: #4f4f4f;
+  background: #4f4f4f;
 }
 
 .CodeMirror-focused .CodeMirror-selected {
-	background: #000;
+  background: #000;
 }
 
 /* Active Line */
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
-	color: #fc3d7f !important;
+  color: #fc3d7f !important;
 }
 
 .CodeMirror-activeline-background {
-	background: #1e2021 !important;
+  background: #1e2021 !important;
 }
 
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
-	color: #fff;
-	background-color: transparent !important;
+  color: #fff;
+  background-color: transparent !important;
 }
 
 /* Matching */
  
 .CodeMirror-matchingbracket {
-    background: #308e74 !important;
-    color: #000 !important;
-    font-weight: bold;
-    border: 1px solid #28735E;
-    border-radius: 2px;
+  background: #308e74 !important;
+  color: #000 !important;
+  font-weight: bold;
+  border: 1px solid #28735E;
+  border-radius: 2px;
 }
 
 .CodeMirror-matchingtag {
-    background: #000 !important;
+  background: #000 !important;
 }
 
 /* Non-editor styling */
 
 #image-holder, #not-editor {
-    background-color: #141617;
+  background-color: #141617;
 }
 
 #image-holder {
-    color: #c8c6d1;
+  color: #c8c6d1;
 }
 
 .CodeMirror-foldmarker {
-	background-color: #333;
-	border-color: #555;
-	color: #fff;
-	padding: 0px 5px;
+  background-color: #333;
+  border-color: #555;
+  color: #fff;
+  padding: 0px 5px;
 }
 
 .cm-header {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .cm-strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .cm-em {
-	font-style: italic;
+  font-style: italic;
 }
 
 .cm-searching {
-	background: black;
-	outline: 2px solid rgba(255, 255, 255, 0.25);
+  background: black;
+  outline: 2px solid rgba(255, 255, 255, 0.25);
 }
 
 
@@ -132,205 +132,205 @@ span.cm-error		{ color: #fc3d7f;}
 
 
 #sidebar {
-	background: #1f1f1f;
-    border-right: 1px solid #0e0e0e
+  background: #1f1f1f;
+  border-right: 1px solid #0e0e0e
 }
 
 #sidebar #working-set-list-container {
-	background: #1f1f1f;
+  background: #1f1f1f;
 }
 
 #sidebar .working-set-header,
 #sidebar .working-set-header-title {
-	background: #1f1f1f;
+  background: #1f1f1f;
 }
 
 #sidebar #project-files-container {
-	background: #1f1f1f;
+  background: #1f1f1f;
 }
 
 .sidebar-selection {
-	background: #151515 !important;
-	border: none !important;
+  background: #151515 !important;
+  border: none !important;
 }
 
 #main-toolbar {
-	background: #1f1f1f;
+  background: #1f1f1f;
 }
 
 #main-toolbar .buttons {
-	background: #1f1f1f;
+  background: #1f1f1f;
 }
 
 #main-toolbar .buttons>a:hover,
 #main-toolbar .bottom-buttons>a:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 #status-bar,
 #status-indicators {
-	background: #1f1f1f !important;
+  background: #1f1f1f !important;
 }
 
 .pane-header {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 .modal-header,
 .modal-body,
 .modal-footer {
-	background: #1f1f1f !important;
+  background: #1f1f1f !important;
 }
 
 .context-menu,
 .dropdown-menu {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th,
 .table-striped tbody tr:nth-child(even) td,
 .table-striped tbody tr:nth-child(even) th {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 .dark .extension-manager-dialog .modal-header .nav-tabs>li>a {
-	background-color: #1f1f1f !important;
-	border: none;
+  background-color: #1f1f1f !important;
+  border: none;
 }
 
 .extension-manager-dialog .modal-header .nav-tabs>.active>a {
-	background-color: rgba(0, 0, 0, 0.1) !important;
-	border-bottom: 2px solid #2196f3 !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-bottom: 2px solid #2196f3 !important;
 }
 
 .extension-manager-dialog .modal-header .nav-tabs>li>a:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .extension-manager-dialog .modal-header #sort-attributes-icon {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 .extension-manager-dialog .modal-header .search {
-	background-color: #1f1f1f;
+  background-color: #1f1f1f;
 }
 
 .extension-manager-dialog .modal-header .search-clear {
-	color: #E9EDED;
+  color: #E9EDED;
 }
 
 select,
 select>option {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 .btn-dropdown:not(.btn-status-bar) {
-	padding: 0.5rem 1.5rem 0.5rem 1rem !important;
-	background-color: #151515 !important;
-	box-shadow: none !important;
-	border: none;
+  padding: 0.5rem 1.5rem 0.5rem 1rem !important;
+  background-color: #151515 !important;
+  box-shadow: none !important;
+  border: none;
 }
 
 .btn-dropdown:not(.btn-status-bar):after {
-	right: 0.5rem;
-	top: 1rem;
-	border-top: 5px solid #2196f3;
+  right: 0.5rem;
+  top: 1rem;
+  border-top: 5px solid #2196f3;
 }
 
 .btn:not(.btn-status-bar):not(.btn-dropdown) {
-	padding: 0.5rem 1rem 0.5rem 1rem !important;
-	background-color: #151515 !important;
-	box-shadow: none !important;
-	border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+  background-color: #151515 !important;
+  box-shadow: none !important;
+  border: none;
 }
 
 .btn-alt-quiet {
-	border-radius: 2px !important;
+  border-radius: 2px !important;
 }
 
 .btn-alt-quiet:hover {
-	border: 1px solid transparent !important;
-	box-shadow: none !important;
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .btn.btn-mini.install {
-	background-color: #4caf50 !important;
-	color: #fff !important;
-	font-size: 12px;
+  background-color: #4caf50 !important;
+  color: #fff !important;
+  font-size: 12px;
 }
 
 .btn.btn-mini.install:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .btn.btn-mini.remove {
-	background-color: #f44336 !important;
-	color: #fff !important;
-	font-size: 11px;
+  background-color: #f44336 !important;
+  color: #fff !important;
+  font-size: 11px;
 }
 
 .btn.btn-mini.remove:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 #project-files-header .btn-alt-quiet {
-	background-color: #151515 !important;
-	padding: 0.25rem 0.75rem 0.25rem 0.75rem !important;
+  background-color: #151515 !important;
+  padding: 0.25rem 0.75rem 0.25rem 0.75rem !important;
 }
 
 #project-files-header.btn-alt-quiet:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .btn-group button {
-	height: auto !important;
-	border: none !important;
+  height: auto !important;
+  border: none !important;
 }
 
 .btn:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .dialog-button.btn.primary {
-	background-color: #2196f3 !important;
+  background-color: #2196f3 !important;
 }
 
 .dialog-button.btn.primary:focus {
-	background-color: #1976d2 !important;
+  background-color: #1976d2 !important;
 }
 
 .extension-manager-dialog .modal-body .info-message {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 ::-webkit-scrollbar {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 ::-webkit-scrollbar-thumb {
-	box-shadow: 0 0 0 12px #151515 inset !important;
+  box-shadow: 0 0 0 12px #151515 inset !important;
 }
 
 .bottom-panel {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 .toolbar {
-	background-color: #1f1f1f !important;
+  background-color: #1f1f1f !important;
 }
 
 input[type=checkbox] {
-	border: none !important;
-	background-color: #151515 !important;
-	box-shadow: none !important;
+  border: none !important;
+  background-color: #151515 !important;
+  box-shadow: none !important;
 }
 
 .toolbar .nav .dropdown-menu li a,
 .context-menu .dropdown-menu li a,
 .codehint-menu .dropdown-menu li a {
-	line-height: 2 !important;
+  line-height: 2 !important;
 }
 
 .dark .toolbar .nav .dropdown-menu li a:hover,
@@ -339,11 +339,11 @@ input[type=checkbox] {
 .dark .toolbar .nav .dropdown-menu li a.highlight,
 .dark .context-menu .dropdown-menu li a.highlight,
 .dark .codehint-menu .dropdown-menu li a.highlight {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .jstree-brackets {
-	line-height: 1.6 !important;
+  line-height: 1.6 !important;
 }
 
 textarea,
@@ -362,35 +362,35 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-	background-color: #151515 !important;
+  background-color: #151515 !important;
 }
 
 .health-data-preview .preview-content-container {
-	background-color: #1f1f1f;
-	color: #E9EDED;
-	font-family: 'Consolas', 'Roboto Mono', monospace;
+  background-color: #1f1f1f;
+  color: #E9EDED;
+  font-family: 'Consolas', 'Roboto Mono', monospace;
 }
 
 .modal-bar {
-	background: #1f1f1f !important;
+  background: #1f1f1f !important;
 }
 
 .modal-bar #find-regexp.active,
 .dark .modal-bar #find-regexp:active,
 .dark .modal-bar #find-case-sensitive.active,
 .dark .modal-bar #find-case-sensitive:active {
-	background-color: #151515 !important;
+  background-color: #151515 !important;
 }
 
 .quick-search-container li {
-	padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .quick-search-container,
 .quick-search-container li:nth-child(odd) {
-	background: #1f1f1f !important;
+  background: #1f1f1f !important;
 }
 
 .quick-search-container li:hover {
-	background-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.12) !important;
 }

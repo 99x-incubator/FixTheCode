@@ -1,15 +1,15 @@
 {
-    "name": "fixthecode",
-    "title": "FixTheCode",
-    "description": "A simple theme for people who loves light colours",
-    "homepage": "https://github.com/99xt/FixTheCode.git",
-    "version": "1.2.3",
-    "author": "Raashid A. <raashid@wezile.com> (https://github.com/raashidA)",
-    "license": "MIT",
-    "theme": {
-        "file": "theme.css",
-        "dark": true,
-        "addModeClass": true
-    },
-    "keywords": ["theme"]
+  "name": "fixthecode",
+  "title": "FixTheCode",
+  "description": "A simple theme for people who loves light colours",
+  "homepage": "https://github.com/99xt/FixTheCode.git",
+  "version": "1.2.3",
+  "author": "Raashid A. <raashid@wezile.com> (https://github.com/raashidA)",
+  "license": "MIT",
+  "theme": {
+      "file": "theme.css",
+      "dark": true,
+      "addModeClass": true
+  },
+  "keywords": ["theme"]
 }

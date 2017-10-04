@@ -1,9 +1,10 @@
 /* SWATCHES ---------------------------------------------------------------------- */
 
-span.cm-builtin     { color: #f0f0f0;}
-span.cm-def     { color: #f0f0f0;}
+
+span.cm-builtin     { color: #5cb4de;}
+span.cm-def			{ color: #d8c569;}
 span.cm-header      { color: #f0f0f0; }
-span.cm-qualifier { color: #5cb4de; }
+span.cm-qualifier	{ color: #308e74; }
 
 span.cm-atom    { color: #64B1CE; }
 span.cm-bracket   { color: #64B1CE; }
@@ -29,8 +30,34 @@ span.cm-error   { color: #fc3d7f;}
 
 /* MISC ---------------------------------------------------------------------- */
 
+/* Matching */
+ .CodeMirror-matchingbracket {
+    background: #d8c569 !important;
+    color: #000 !important;
+    border-radius: 2px;
+}
+
+.CodeMirror-matchingtag {
+    background: #000 !important;
+}
+.CodeMirror-focused .CodeMirror-selected {
+	background: #4f4f4f ; 
+}
+
+.CodeMirror .CodeMirror-selected {
+	background: #4f4f4f;
+}
+
+#image-holder, #not-editor {
+    background-color: #141617;
+}
+
+#image-holder {
+    color: #c8c6d1;
+}
+
 .CodeMirror {
-  line-height: 18px;
+	line-height: 19px;
 }
 
 .CodeMirror-scroll {
@@ -56,12 +83,13 @@ span.cm-error   { color: #fc3d7f;}
   color: #555555;
 }
 
+
 .CodeMirror .CodeMirror-selected {
   background: #4f4f4f;
 }
 
 .CodeMirror-focused .CodeMirror-selected {
-  background: #000;
+  background: #4f4f4f;
 }
 
 /* Active Line */
@@ -78,6 +106,8 @@ span.cm-error   { color: #fc3d7f;}
   color: #fff;
   background-color: transparent !important;
 }
+
+/* Non-editor styling */
 
 /* Matching */
  
@@ -126,10 +156,6 @@ span.cm-error   { color: #fc3d7f;}
   background: black;
   outline: 2px solid rgba(255, 255, 255, 0.25);
 }
-
-
-
-
 
 #sidebar {
   background: #1f1f1f;
@@ -343,7 +369,7 @@ input[type=checkbox] {
 }
 
 .jstree-brackets {
-  line-height: 1.6 !important;
+	line-height: 1.8 !important;
 }
 
 textarea,

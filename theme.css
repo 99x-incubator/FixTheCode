@@ -4,7 +4,7 @@
 span.cm-builtin     { color: #5cb4de;}
 span.cm-def			{ color: #d8c569;}
 span.cm-header      { color: #f0f0f0; }
-span.cm-qualifier	{ color: #308e74; }
+span.cm-qualifier	{ color: #25a2a6; }
 
 span.cm-atom    { color: #64B1CE; }
 span.cm-bracket   { color: #64B1CE; }
@@ -16,7 +16,7 @@ span.cm-link    { color: #ff8a69; }
 span.cm-number    { color: #28735E; }
 span.cm-string    { color: #28735E; }
 span.cm-string-2    { color: #64B1CE; }
-span.cm-variable  { color: #64B1CE; }
+span.cm-variable  { color: #25a2a6; }
 span.cm-variable-2  { color: #5cb4de; }
 span.cm-variable-3  { color: #ef7a57; } 
 

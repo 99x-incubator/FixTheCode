@@ -12,8 +12,8 @@ span.cm-operator  { color: #64B1CE; }
 span.cm-meta    { color: #64B1CE; }
 span.cm-tag     { color: #64B1CE; }
 
-span.cm-link    { color: #ff8a69; }
-span.cm-number    { color: #28735E; }
+span.cm-link    { color: #d8c569; }
+span.cm-number    { color: #28735E;}
 span.cm-string    { color: #28735E; }
 span.cm-string-2    { color: #64B1CE; }
 span.cm-variable  { color: #25a2a6; }
@@ -66,7 +66,7 @@ span.cm-error   { color: #fc3d7f;}
 }
 
 .CodeMirror-cursor {
-  border-left: 2px solid #d8c569 !important;
+  border-left: 3px solid #fc3d7f !important;
   border-radius: 50px;
 }
 
@@ -83,17 +83,17 @@ span.cm-error   { color: #fc3d7f;}
   color: #555555;
 }
 
-
 .CodeMirror .CodeMirror-selected {
-  background: #4f4f4f;
+    background: #708394;
+    opacity: 0.3;
 }
 
 .CodeMirror-focused .CodeMirror-selected {
-  background: #4f4f4f;
+  background: #708394;
+    opacity: 0.3;
 }
 
 /* Active Line */
-
 .CodeMirror-focused .CodeMirror-activeline .CodeMirror-nonmatchingbracket {
   color: #fc3d7f !important;
 }
@@ -112,10 +112,10 @@ span.cm-error   { color: #fc3d7f;}
 /* Matching */
  
 .CodeMirror-matchingbracket {
-  background: #308e74 !important;
+  background: #d8c569 !important;
   color: #000 !important;
   font-weight: bold;
-  border: 1px solid #28735E;
+  
   border-radius: 2px;
 }
 

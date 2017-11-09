@@ -33,6 +33,8 @@ Screenshots
 ### JS
 ![JS Screenshot](https://github.com/raashidA/FixTheCode/blob/master/screenshots/js.jpg)
 
+If your a VS Code user, have a look at here <a href="https://github.com/99xt/Sea-green-theme">Sea Green Theme</a>
+
 License
 ---
 

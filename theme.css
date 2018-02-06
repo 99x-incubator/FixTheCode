@@ -38,8 +38,9 @@ span.cm-error   { color: #fc3d7f;}
 }
 
 .CodeMirror-matchingtag {
-    background: #000 !important;
-}
+  background: #212e3e !important;
+} 
+
 .CodeMirror-focused .CodeMirror-selected {
 	background: #d8c569 ; 
 }
@@ -68,6 +69,13 @@ span.cm-error   { color: #fc3d7f;}
 .CodeMirror-cursor {
   border-left: 3px solid #d8c569 !important;
   border-radius: 50px;
+}
+
+.CodeMirror-searching {
+    background-color: #d8c569;
+    &.searching-current-match {
+        background-color: #ef7a57;
+    }
 }
 
 .CodeMirror-overwrite .CodeMirror-cursor {
@@ -111,18 +119,6 @@ span.cm-error   { color: #fc3d7f;}
 
 /* Matching */
  
-.CodeMirror-matchingbracket {
-  background: #d8c569 !important;
-  color: #000 !important;
-  font-weight: bold;
-  
-  border-radius: 2px;
-}
-
-.CodeMirror-matchingtag {
-  background: #000 !important;
-}
-
 /* Non-editor styling */
 
 #image-holder, #not-editor {
@@ -419,4 +415,9 @@ input[type="color"],
 
 .quick-search-container li:hover {
   background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.image-view,
+.not-editor {
+    background-color:#141617 ;
 }
